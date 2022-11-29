@@ -78,3 +78,5 @@ while True:
     key = cv2.waitKey(1)
     if key == ord('r'):
         pass
+    if key == 27:
+        cv2.destroyAllWindows()
